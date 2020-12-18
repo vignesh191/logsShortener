@@ -1,0 +1,1047 @@
+[
+ {
+   "Time": "2020-11-29 22:01:46.155",
+   "Event": "E1129 22:01:46.154552    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:01:59.151",
+   "Event": "E1129 22:01:59.151523    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:02:12.152",
+   "Event": "E1129 22:02:12.152459    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:02:15.033",
+   "Event": "E1129 22:02:15.032953    4139 remote_runtime.go:321] ContainerStatus \"b4e35aea46693ca05969f96509c27cfd861243a74f9cda6732a5acb7ea28a147\" from runtime service failed: rpc error: code = Unknown desc = Error: No such container: b4e35aea46693ca05969f96509c27cfd861243a74f9cda6732a5acb7ea28a147 source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:02:15.034",
+   "Event": "E1129 22:02:15.034458    4139 remote_runtime.go:321] ContainerStatus \"296fd5fccec2486e44cbf3319f377b676d08b7a85e2fc9303bcd7388fbcef159\" from runtime service failed: rpc error: code = Unknown desc = Error: No such container: 296fd5fccec2486e44cbf3319f377b676d08b7a85e2fc9303bcd7388fbcef159 source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:02:15.035",
+   "Event": "E1129 22:02:15.035119    4139 remote_runtime.go:321] ContainerStatus \"6278f2c33d461daaed0be42da7874f4fa24f617a27ec259a5ac4462ca9eaba12\" from runtime service failed: rpc error: code = Unknown desc = Error: No such container: 6278f2c33d461daaed0be42da7874f4fa24f617a27ec259a5ac4462ca9eaba12 source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:02:15.036",
+   "Event": "E1129 22:02:15.035850    4139 remote_runtime.go:321] ContainerStatus \"f86d8910e7594588f7c10b9d2de0000fe290dc3460e8480a222b2f7c90073577\" from runtime service failed: rpc error: code = Unknown desc = Error: No such container: f86d8910e7594588f7c10b9d2de0000fe290dc3460e8480a222b2f7c90073577 source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:02:15.036",
+   "Event": "E1129 22:02:15.036297    4139 remote_runtime.go:321] ContainerStatus \"08d7abf70cf805a300906b4244994ecfdaa40712303a6da9b1923e28adba28f8\" from runtime service failed: rpc error: code = Unknown desc = Error: No such container: 08d7abf70cf805a300906b4244994ecfdaa40712303a6da9b1923e28adba28f8 source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:02:15.811",
+   "Event": "2020-11-29 22:02:15.810+0000 [id=211556]\tWARNING\ti.f.k.c.d.i.WatchConnectionManager$1#onFailure: Exec Failure: HTTP 403, Status: 403 - events is forbidden: User \"system:serviceaccount:jenkins:jenkins-operator-riq-prd-master01\" cannot watch resource \"events\" in API group \"\" in the namespace \"jenkins\" source:",
+   "Source": "CI-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:02:15.811",
+   "Event": "2020-11-29 22:02:15.810+0000 [id=211556]\tWARNING\ti.f.k.c.d.i.WatchConnectionManager$1#onFailure: Exec Failure: HTTP 403, Status: 403 - events is forbidden: User \"system:serviceaccount:jenkins:jenkins-operator-riq-prd-master01\" cannot watch resource \"events\" in API group \"\" in the namespace \"jenkins\" source:",
+   "Source": "Test-Tool-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:02:15.865",
+   "Event": "2020-11-29 22:02:15.864+0000 [id=211559]\tWARNING\ti.f.k.c.d.i.WatchConnectionManager$1#onFailure: Exec Failure: HTTP 403, Status: 403 - events is forbidden: User \"system:serviceaccount:jenkins:jenkins-operator-riq-prd-master01\" cannot watch resource \"events\" in API group \"\" in the namespace \"jenkins\" source:",
+   "Source": "CI-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:02:15.865",
+   "Event": "2020-11-29 22:02:15.864+0000 [id=211559]\tWARNING\ti.f.k.c.d.i.WatchConnectionManager$1#onFailure: Exec Failure: HTTP 403, Status: 403 - events is forbidden: User \"system:serviceaccount:jenkins:jenkins-operator-riq-prd-master01\" cannot watch resource \"events\" in API group \"\" in the namespace \"jenkins\" source:",
+   "Source": "Test-Tool-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:02:16.867",
+   "Event": "2020-11-29 22:02:16.866+0000 [id=211421]\tWARNING\ti.f.k.c.d.i.WatchConnectionManager#close: Executor didn't terminate in time after shutdown in close(), killing it in: io.fabric8.kubernetes.client.dsl.internal.WatchConnectionManager@28bc20a7 source:",
+   "Source": "CI-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:02:16.867",
+   "Event": "2020-11-29 22:02:16.866+0000 [id=211421]\tWARNING\ti.f.k.c.d.i.WatchConnectionManager#close: Executor didn't terminate in time after shutdown in close(), killing it in: io.fabric8.kubernetes.client.dsl.internal.WatchConnectionManager@28bc20a7 source:",
+   "Source": "CI-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:02:16.867",
+   "Event": "2020-11-29 22:02:16.866+0000 [id=211421]\tWARNING\ti.f.k.c.d.i.WatchConnectionManager#close: Executor didn't terminate in time after shutdown in close(), killing it in: io.fabric8.kubernetes.client.dsl.internal.WatchConnectionManager@28bc20a7 source:",
+   "Source": "Test-Tool-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:02:16.867",
+   "Event": "2020-11-29 22:02:16.866+0000 [id=211421]\tWARNING\ti.f.k.c.d.i.WatchConnectionManager#close: Executor didn't terminate in time after shutdown in close(), killing it in: io.fabric8.kubernetes.client.dsl.internal.WatchConnectionManager@28bc20a7 source:",
+   "Source": "Test-Tool-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:02:23.155",
+   "Event": "E1129 22:02:23.155620    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:02:35.156",
+   "Event": "E1129 22:02:35.156193    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:02:46.151",
+   "Event": "E1129 22:02:46.151453    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:02:58.151",
+   "Event": "E1129 22:02:58.151574    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:03:16.245",
+   "Event": "22:03:16,245 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@48075da3 - Propagating ERROR level on Logger[org.apache.catalina.startup.DigesterFactory] onto the JUL framework source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:03:16.245",
+   "Event": "22:03:16,244 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.catalina.startup.DigesterFactory] to ERROR source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:03:16.248",
+   "Event": "22:03:16,248 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@48075da3 - Propagating ERROR level on Logger[org.apache.catalina.util.LifecycleBase] onto the JUL framework source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:03:16.248",
+   "Event": "22:03:16,248 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.catalina.util.LifecycleBase] to ERROR source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:03:16.250",
+   "Event": "22:03:16,249 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.eclipse.jetty.util.component.AbstractLifeCycle] to ERROR source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:03:16.250",
+   "Event": "22:03:16,249 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@48075da3 - Propagating ERROR level on Logger[org.eclipse.jetty.util.component.AbstractLifeCycle] onto the JUL framework source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:03:17.698",
+   "Event": "WARNING: An illegal reflective access operation has occurred source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:03:17.698",
+   "Event": "WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:03:17.698",
+   "Event": "WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (jar:file:/opt/releaseiq/lib/product-app-be-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/groovy-all-2.4.12.jar!/) to method java.lang.Object.finalize() source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:03:17.698",
+   "Event": "WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:03:17.698",
+   "Event": "WARNING: All illegal access operations will be denied in a future release source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:03:28.649",
+   "Event": "2020-11-29 22:03:28.648 ERROR 6 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization. source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:03:28.683",
+   "Event": "2020-11-29 22:03:28.682 ERROR 6 --- [           main] o.s.boot.SpringApplication               : Application run failed source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:03:29.918",
+   "Event": "E1129 22:03:29.917894    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:03:43.155",
+   "Event": "E1129 22:03:43.154110    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:03:56.153",
+   "Event": "E1129 22:03:56.153282    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:04:06.336",
+   "Event": "2020-11-29 22:04:06.335+0000 [id=211573]\tINFO\to.c.j.p.k.KubernetesSlave#_terminate: Terminating Kubernetes instance for agent product-ui-test-1442-nvw7f-nqt2k-zsplb source:",
+   "Source": "CI-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:04:06.336",
+   "Event": "2020-11-29 22:04:06.335+0000 [id=211573]\tINFO\to.c.j.p.k.KubernetesSlave#_terminate: Terminating Kubernetes instance for agent product-ui-test-1442-nvw7f-nqt2k-zsplb source:",
+   "Source": "CI-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:04:06.336",
+   "Event": "2020-11-29 22:04:06.335+0000 [id=211573]\tINFO\to.c.j.p.k.KubernetesSlave#_terminate: Terminating Kubernetes instance for agent product-ui-test-1442-nvw7f-nqt2k-zsplb source:",
+   "Source": "Test-Tool-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:04:06.336",
+   "Event": "2020-11-29 22:04:06.335+0000 [id=211573]\tINFO\to.c.j.p.k.KubernetesSlave#_terminate: Terminating Kubernetes instance for agent product-ui-test-1442-nvw7f-nqt2k-zsplb source:",
+   "Source": "Test-Tool-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:04:06.418",
+   "Event": "2020-11-29 22:04:06.418+0000 [id=211574]\tINFO\tj.s.DefaultJnlpSlaveReceiver#channelClosed: Computer.threadPoolForRemoting [#71270] for product-ui-test-1442-nvw7f-nqt2k-zsplb terminated: java.nio.channels.ClosedChannelException source:",
+   "Source": "CI-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:04:06.418",
+   "Event": "2020-11-29 22:04:06.418+0000 [id=211574]\tINFO\tj.s.DefaultJnlpSlaveReceiver#channelClosed: Computer.threadPoolForRemoting [#71270] for product-ui-test-1442-nvw7f-nqt2k-zsplb terminated: java.nio.channels.ClosedChannelException source:",
+   "Source": "Test-Tool-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:04:06.434",
+   "Event": "2020-11-29 22:04:06.433+0000 [id=211573]\tINFO\to.c.j.p.k.KubernetesSlave#deleteSlavePod: Terminated Kubernetes instance for agent jenkins/product-ui-test-1442-nvw7f-nqt2k-zsplb source:",
+   "Source": "CI-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:04:06.434",
+   "Event": "2020-11-29 22:04:06.434+0000 [id=211573]\tINFO\to.c.j.p.k.KubernetesSlave#_terminate: Disconnected computer product-ui-test-1442-nvw7f-nqt2k-zsplb source:",
+   "Source": "CI-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:04:06.434",
+   "Event": "Terminated Kubernetes instance for agent jenkins/product-ui-test-1442-nvw7f-nqt2k-zsplb source:",
+   "Source": "CI-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:04:06.434",
+   "Event": "2020-11-29 22:04:06.433+0000 [id=211573]\tINFO\to.c.j.p.k.KubernetesSlave#deleteSlavePod: Terminated Kubernetes instance for agent jenkins/product-ui-test-1442-nvw7f-nqt2k-zsplb source:",
+   "Source": "Test-Tool-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:04:06.434",
+   "Event": "2020-11-29 22:04:06.434+0000 [id=211573]\tINFO\to.c.j.p.k.KubernetesSlave#_terminate: Disconnected computer product-ui-test-1442-nvw7f-nqt2k-zsplb source:",
+   "Source": "Test-Tool-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:04:06.434",
+   "Event": "Terminated Kubernetes instance for agent jenkins/product-ui-test-1442-nvw7f-nqt2k-zsplb source:",
+   "Source": "Test-Tool-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:04:07.151",
+   "Event": "E1129 22:04:07.151538    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:04:19.151",
+   "Event": "E1129 22:04:19.151669    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:04:33.155",
+   "Event": "E1129 22:04:33.155464    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:04:37.312",
+   "Event": "E1129 22:04:37.312750    4139 remote_runtime.go:321] ContainerStatus \"e2c66d76b66e7e3eee253c496965cdddbf8a3d3e6bc6d2b352710db806e347bc\" from runtime service failed: rpc error: code = Unknown desc = Error: No such container: e2c66d76b66e7e3eee253c496965cdddbf8a3d3e6bc6d2b352710db806e347bc source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:04:37.313",
+   "Event": "E1129 22:04:37.313653    4139 remote_runtime.go:321] ContainerStatus \"f2fb1768e8cde1e7286643182b57a2fd4c0e8797fd754052786b48c1adf2afce\" from runtime service failed: rpc error: code = Unknown desc = Error: No such container: f2fb1768e8cde1e7286643182b57a2fd4c0e8797fd754052786b48c1adf2afce source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:04:37.314",
+   "Event": "E1129 22:04:37.314625    4139 remote_runtime.go:321] ContainerStatus \"d5f41b8d5e10542b5fc82e137d601c70674067373b385b68329701739865d02c\" from runtime service failed: rpc error: code = Unknown desc = Error: No such container: d5f41b8d5e10542b5fc82e137d601c70674067373b385b68329701739865d02c source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:04:46.151",
+   "Event": "E1129 22:04:46.151447    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:04:58.151",
+   "Event": "E1129 22:04:58.151554    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:05:12.151",
+   "Event": "E1129 22:05:12.151539    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:05:27.152",
+   "Event": "E1129 22:05:27.151675    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:05:38.151",
+   "Event": "E1129 22:05:38.151618    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:05:52.155",
+   "Event": "E1129 22:05:52.155488    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:06:07.152",
+   "Event": "E1129 22:06:07.151790    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:06:21.154",
+   "Event": "E1129 22:06:21.151958    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:06:34.151",
+   "Event": "E1129 22:06:34.151670    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:06:48.152",
+   "Event": "E1129 22:06:48.151997    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:07:03.155",
+   "Event": "E1129 22:07:03.155599    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:07:14.152",
+   "Event": "E1129 22:07:14.151720    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:07:28.152",
+   "Event": "E1129 22:07:28.151793    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:07:39.151",
+   "Event": "E1129 22:07:39.151544    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:07:51.152",
+   "Event": "E1129 22:07:51.152018    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:08:05.155",
+   "Event": "E1129 22:08:05.155225    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:08:06.912",
+   "Event": "2020-11-29 22:08:06.912 ERROR 6 --- [nio-8080-exec-7] i.r.app.be.service.FilterService         :  ProgramId for Program/Component not found .. 'CD-Agent' source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:06.914",
+   "Event": "2020-11-29 22:08:06.914 ERROR 6 --- [nio-8080-exec-7] i.r.app.be.service.FilterService         :  ProgramId for Program/Component not found .. 'dummyCD' source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:06.934",
+   "Event": "2020-11-29 22:08:06.933 ERROR 6 --- [nio-8080-exec-7] i.r.app.be.service.FilterService         :  ProgramId for Program/Component not found .. 'Component 3' source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:06.948",
+   "Event": "2020-11-29 22:08:06.947 ERROR 6 --- [nio-8080-exec-7] i.r.app.be.service.FilterService         :  ProgramId for Program/Component not found .. 'product-cd' source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:06.949",
+   "Event": "2020-11-29 22:08:06.949 ERROR 6 --- [nio-8080-exec-7] i.r.app.be.service.FilterService         :  ProgramId for Program/Component not found .. 'CD-Product' source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:07.226",
+   "Event": "2020-11-29 22:08:07.226 ERROR 6 --- [nio-8080-exec-1] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4467258066045828 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:07.241",
+   "Event": "2020-11-29 22:08:07.240 ERROR 6 --- [nio-8080-exec-1] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4559784657074355 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:07.254",
+   "Event": "2020-11-29 22:08:07.253 ERROR 6 --- [nio-8080-exec-1] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4565427937485250 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:07.270",
+   "Event": "2020-11-29 22:08:07.269 ERROR 6 --- [nio-8080-exec-1] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4566667523593401 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:07.282",
+   "Event": "2020-11-29 22:08:07.281 ERROR 6 --- [nio-8080-exec-1] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4577083001836623 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:07.295",
+   "Event": "2020-11-29 22:08:07.294 ERROR 6 --- [nio-8080-exec-1] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4580353174377307 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:07.409",
+   "Event": "2020-11-29 22:08:07.408 ERROR 6 --- [nio-8080-exec-1] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15516542984488507 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:07.442",
+   "Event": "2020-11-29 22:08:07.441 ERROR 6 --- [nio-8080-exec-1] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15805706212223863 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:07.626",
+   "Event": "2020-11-29 22:08:07.625 ERROR 6 --- [nio-8080-exec-1] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15516542984488507 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:07.651",
+   "Event": "2020-11-29 22:08:07.650 ERROR 6 --- [nio-8080-exec-1] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15530802382115829 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:08.012",
+   "Event": "2020-11-29 22:08:08.011 ERROR 6 --- [nio-8080-exec-1] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15545724891080929 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:08.026",
+   "Event": "2020-11-29 22:08:08.025 ERROR 6 --- [nio-8080-exec-1] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4832253937411900 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:08.559",
+   "Event": "2020-11-29 22:08:08.559 ERROR 6 --- [nio-8080-exec-1] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4824055324918803 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:17.152",
+   "Event": "E1129 22:08:17.151841    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:08:32.964",
+   "Event": "22:08:32,963 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.catalina.startup.DigesterFactory] to ERROR source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:32.964",
+   "Event": "22:08:32,964 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@48075da3 - Propagating ERROR level on Logger[org.apache.catalina.startup.DigesterFactory] onto the JUL framework source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:32.968",
+   "Event": "22:08:32,967 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.catalina.util.LifecycleBase] to ERROR source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:32.968",
+   "Event": "22:08:32,967 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@48075da3 - Propagating ERROR level on Logger[org.apache.catalina.util.LifecycleBase] onto the JUL framework source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:32.969",
+   "Event": "22:08:32,968 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.eclipse.jetty.util.component.AbstractLifeCycle] to ERROR source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:32.969",
+   "Event": "22:08:32,968 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@48075da3 - Propagating ERROR level on Logger[org.eclipse.jetty.util.component.AbstractLifeCycle] onto the JUL framework source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:34.370",
+   "Event": "WARNING: An illegal reflective access operation has occurred source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:34.370",
+   "Event": "WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (jar:file:/opt/releaseiq/lib/product-app-be-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/groovy-all-2.4.12.jar!/) to method java.lang.Object.finalize() source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:34.370",
+   "Event": "WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:34.370",
+   "Event": "WARNING: All illegal access operations will be denied in a future release source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:34.370",
+   "Event": "WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:45.503",
+   "Event": "2020-11-29 22:08:45.502 ERROR 7 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization. source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:45.536",
+   "Event": "2020-11-29 22:08:45.535 ERROR 7 --- [           main] o.s.boot.SpringApplication               : Application run failed source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:08:46.982",
+   "Event": "E1129 22:08:46.981944    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:09:00.154",
+   "Event": "E1129 22:09:00.153838    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:09:06.759",
+   "Event": "2020-11-29 22:09:06.757 ERROR 6 --- [nio-8080-exec-3] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4467258066045828 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:09:06.772",
+   "Event": "2020-11-29 22:09:06.771 ERROR 6 --- [nio-8080-exec-3] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4559784657074355 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:09:06.797",
+   "Event": "2020-11-29 22:09:06.796 ERROR 6 --- [nio-8080-exec-3] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4565427937485250 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:09:06.824",
+   "Event": "2020-11-29 22:09:06.823 ERROR 6 --- [nio-8080-exec-3] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4566667523593401 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:09:06.844",
+   "Event": "2020-11-29 22:09:06.843 ERROR 6 --- [nio-8080-exec-3] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4577083001836623 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:09:06.860",
+   "Event": "2020-11-29 22:09:06.859 ERROR 6 --- [nio-8080-exec-3] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4580353174377307 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:09:06.984",
+   "Event": "2020-11-29 22:09:06.978 ERROR 6 --- [nio-8080-exec-3] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15516542984488507 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:09:07.038",
+   "Event": "2020-11-29 22:09:07.037 ERROR 6 --- [nio-8080-exec-3] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15805706212223863 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:09:07.181",
+   "Event": "2020-11-29 22:09:07.180 ERROR 6 --- [nio-8080-exec-3] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15516542984488507 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:09:07.202",
+   "Event": "2020-11-29 22:09:07.201 ERROR 6 --- [nio-8080-exec-3] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15530802382115829 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:09:07.519",
+   "Event": "2020-11-29 22:09:07.518 ERROR 6 --- [nio-8080-exec-3] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15545724891080929 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:09:07.542",
+   "Event": "2020-11-29 22:09:07.540 ERROR 6 --- [nio-8080-exec-3] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4832253937411900 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:09:08.085",
+   "Event": "2020-11-29 22:09:08.084 ERROR 6 --- [nio-8080-exec-3] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4824055324918803 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:09:15.152",
+   "Event": "E1129 22:09:15.151816    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:09:29.151",
+   "Event": "E1129 22:09:29.151664    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:09:40.152",
+   "Event": "E1129 22:09:40.151460    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:09:51.157",
+   "Event": "E1129 22:09:51.157027    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:10:03.160",
+   "Event": "E1129 22:10:03.159799    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:10:06.715",
+   "Event": "2020-11-29 22:10:06.714 ERROR 6 --- [nio-8080-exec-8] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4467258066045828 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:10:06.729",
+   "Event": "2020-11-29 22:10:06.728 ERROR 6 --- [nio-8080-exec-8] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4559784657074355 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:10:06.742",
+   "Event": "2020-11-29 22:10:06.741 ERROR 6 --- [nio-8080-exec-8] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4565427937485250 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:10:06.766",
+   "Event": "2020-11-29 22:10:06.765 ERROR 6 --- [nio-8080-exec-8] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4566667523593401 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:10:06.785",
+   "Event": "2020-11-29 22:10:06.785 ERROR 6 --- [nio-8080-exec-8] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4577083001836623 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:10:06.800",
+   "Event": "2020-11-29 22:10:06.799 ERROR 6 --- [nio-8080-exec-8] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4580353174377307 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:10:06.929",
+   "Event": "2020-11-29 22:10:06.928 ERROR 6 --- [nio-8080-exec-8] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15516542984488507 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:10:06.969",
+   "Event": "2020-11-29 22:10:06.968 ERROR 6 --- [nio-8080-exec-8] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15805706212223863 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:10:07.150",
+   "Event": "2020-11-29 22:10:07.149 ERROR 6 --- [nio-8080-exec-8] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15516542984488507 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:10:07.168",
+   "Event": "2020-11-29 22:10:07.167 ERROR 6 --- [nio-8080-exec-8] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15530802382115829 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:10:07.473",
+   "Event": "2020-11-29 22:10:07.472 ERROR 6 --- [nio-8080-exec-8] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15545724891080929 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:10:07.489",
+   "Event": "2020-11-29 22:10:07.488 ERROR 6 --- [nio-8080-exec-8] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4832253937411900 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:10:07.991",
+   "Event": "2020-11-29 22:10:07.989 ERROR 6 --- [nio-8080-exec-8] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4824055324918803 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:10:17.156",
+   "Event": "E1129 22:10:17.156346    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:10:29.152",
+   "Event": "E1129 22:10:29.151824    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:10:40.151",
+   "Event": "E1129 22:10:40.151442    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:10:53.151",
+   "Event": "E1129 22:10:53.151642    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:11:04.152",
+   "Event": "E1129 22:11:04.151539    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:11:08.352",
+   "Event": "2020-11-29 22:11:08.351 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4467258066045828 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:11:08.372",
+   "Event": "2020-11-29 22:11:08.371 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4559784657074355 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:11:08.397",
+   "Event": "2020-11-29 22:11:08.396 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4565427937485250 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:11:08.418",
+   "Event": "2020-11-29 22:11:08.417 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4566667523593401 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:11:08.432",
+   "Event": "2020-11-29 22:11:08.430 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4577083001836623 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:11:08.446",
+   "Event": "2020-11-29 22:11:08.445 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4580353174377307 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:11:08.569",
+   "Event": "2020-11-29 22:11:08.568 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15516542984488507 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:11:08.626",
+   "Event": "2020-11-29 22:11:08.625 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15805706212223863 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:11:08.794",
+   "Event": "2020-11-29 22:11:08.793 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15516542984488507 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:11:08.809",
+   "Event": "2020-11-29 22:11:08.809 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15530802382115829 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:11:09.044",
+   "Event": "2020-11-29 22:11:09.043 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15545724891080929 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:11:09.060",
+   "Event": "2020-11-29 22:11:09.060 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4832253937411900 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:11:09.453",
+   "Event": "2020-11-29 22:11:09.451 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4824055324918803 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:11:18.152",
+   "Event": "E1129 22:11:18.152062    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:11:31.154",
+   "Event": "E1129 22:11:31.153990    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:11:46.151",
+   "Event": "E1129 22:11:46.151435    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:11:58.152",
+   "Event": "E1129 22:11:58.151724    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:12:09.151",
+   "Event": "E1129 22:12:09.151619    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:12:13.510",
+   "Event": "2020-11-29 22:12:13.509 ERROR 6 --- [nio-8080-exec-4] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4467258066045828 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:12:13.523",
+   "Event": "2020-11-29 22:12:13.522 ERROR 6 --- [nio-8080-exec-4] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4559784657074355 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:12:13.535",
+   "Event": "2020-11-29 22:12:13.534 ERROR 6 --- [nio-8080-exec-4] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4565427937485250 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:12:13.558",
+   "Event": "2020-11-29 22:12:13.551 ERROR 6 --- [nio-8080-exec-4] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4566667523593401 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:12:13.570",
+   "Event": "2020-11-29 22:12:13.563 ERROR 6 --- [nio-8080-exec-4] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4577083001836623 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:12:13.588",
+   "Event": "2020-11-29 22:12:13.584 ERROR 6 --- [nio-8080-exec-4] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4580353174377307 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:12:13.699",
+   "Event": "2020-11-29 22:12:13.698 ERROR 6 --- [nio-8080-exec-4] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15516542984488507 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:12:13.764",
+   "Event": "2020-11-29 22:12:13.764 ERROR 6 --- [nio-8080-exec-4] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15805706212223863 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:12:13.997",
+   "Event": "2020-11-29 22:12:13.996 ERROR 6 --- [nio-8080-exec-4] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15516542984488507 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:12:14.011",
+   "Event": "2020-11-29 22:12:14.010 ERROR 6 --- [nio-8080-exec-4] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15530802382115829 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:12:14.308",
+   "Event": "2020-11-29 22:12:14.307 ERROR 6 --- [nio-8080-exec-4] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15545724891080929 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:12:14.320",
+   "Event": "2020-11-29 22:12:14.320 ERROR 6 --- [nio-8080-exec-4] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4832253937411900 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:12:14.808",
+   "Event": "2020-11-29 22:12:14.807 ERROR 6 --- [nio-8080-exec-4] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4824055324918803 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:12:23.152",
+   "Event": "E1129 22:12:23.152235    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:12:34.151",
+   "Event": "E1129 22:12:34.151520    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:12:46.151",
+   "Event": "E1129 22:12:46.151580    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:13:01.152",
+   "Event": "E1129 22:13:01.152354    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:13:08.711",
+   "Event": "2020-11-29 22:13:08.711 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4467258066045828 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:08.724",
+   "Event": "2020-11-29 22:13:08.723 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4559784657074355 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:08.736",
+   "Event": "2020-11-29 22:13:08.735 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4565427937485250 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:08.748",
+   "Event": "2020-11-29 22:13:08.748 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4566667523593401 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:08.761",
+   "Event": "2020-11-29 22:13:08.760 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4577083001836623 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:08.774",
+   "Event": "2020-11-29 22:13:08.773 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4580353174377307 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:08.865",
+   "Event": "2020-11-29 22:13:08.865 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15516542984488507 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:08.902",
+   "Event": "2020-11-29 22:13:08.902 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15805706212223863 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:09.038",
+   "Event": "2020-11-29 22:13:09.038 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15516542984488507 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:09.053",
+   "Event": "2020-11-29 22:13:09.053 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15530802382115829 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:09.273",
+   "Event": "2020-11-29 22:13:09.273 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [15545724891080929 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:09.293",
+   "Event": "2020-11-29 22:13:09.290 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4832253937411900 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:09.711",
+   "Event": "2020-11-29 22:13:09.710 ERROR 6 --- [nio-8080-exec-2] i.r.app.be.common.DerivedPipelineStatus  : Missing Data in Stages Table. Expected to be find StageInfo [4824055324918803 0] source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:16.151",
+   "Event": "E1129 22:13:16.151505    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:13:31.152",
+   "Event": "E1129 22:13:31.152275    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:13:43.156",
+   "Event": "E1129 22:13:43.155722    4142 pod_workers.go:190] Error syncing pod e3268629-328c-11eb-b534-0622856dab4d (\"product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\"), skipping: failed to \"StartContainer\" for \"app-be\" with CrashLoopBackOff: \"Back-off 5m0s restarting failed container=app-be pod=product-app-be-57bccd6d8d-ds69v_dev(e3268629-328c-11eb-b534-0622856dab4d)\" source:",
+   "Source": "App-Infra (K8S)"
+ },
+ {
+   "Time": "2020-11-29 22:13:52.016",
+   "Event": "2020-11-29 22:13:52.015+0000 [id=211742]\tINFO\to.c.j.p.k.KubernetesSlave#_terminate: Terminating Kubernetes instance for agent product-be-test-984-lxxts-9xfwb-bx0fl source:",
+   "Source": "CI-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:13:52.016",
+   "Event": "2020-11-29 22:13:52.015+0000 [id=211742]\tINFO\to.c.j.p.k.KubernetesSlave#_terminate: Terminating Kubernetes instance for agent product-be-test-984-lxxts-9xfwb-bx0fl source:",
+   "Source": "CI-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:13:52.016",
+   "Event": "2020-11-29 22:13:52.015+0000 [id=211742]\tINFO\to.c.j.p.k.KubernetesSlave#_terminate: Terminating Kubernetes instance for agent product-be-test-984-lxxts-9xfwb-bx0fl source:",
+   "Source": "Test-Tool-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:13:52.016",
+   "Event": "2020-11-29 22:13:52.015+0000 [id=211742]\tINFO\to.c.j.p.k.KubernetesSlave#_terminate: Terminating Kubernetes instance for agent product-be-test-984-lxxts-9xfwb-bx0fl source:",
+   "Source": "Test-Tool-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:13:52.136",
+   "Event": "2020-11-29 22:13:52.134+0000 [id=211825]\tINFO\tj.s.DefaultJnlpSlaveReceiver#channelClosed: Computer.threadPoolForRemoting [#71292] for product-be-test-984-lxxts-9xfwb-bx0fl terminated: java.nio.channels.ClosedChannelException source:",
+   "Source": "CI-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:13:52.136",
+   "Event": "2020-11-29 22:13:52.134+0000 [id=211825]\tINFO\tj.s.DefaultJnlpSlaveReceiver#channelClosed: Computer.threadPoolForRemoting [#71292] for product-be-test-984-lxxts-9xfwb-bx0fl terminated: java.nio.channels.ClosedChannelException source:",
+   "Source": "Test-Tool-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:13:52.153",
+   "Event": "2020-11-29 22:13:52.152+0000 [id=211742]\tINFO\to.c.j.p.k.KubernetesSlave#_terminate: Disconnected computer product-be-test-984-lxxts-9xfwb-bx0fl source:",
+   "Source": "CI-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:13:52.153",
+   "Event": "Terminated Kubernetes instance for agent jenkins/product-be-test-984-lxxts-9xfwb-bx0fl source:",
+   "Source": "CI-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:13:52.153",
+   "Event": "2020-11-29 22:13:52.152+0000 [id=211742]\tINFO\to.c.j.p.k.KubernetesSlave#deleteSlavePod: Terminated Kubernetes instance for agent jenkins/product-be-test-984-lxxts-9xfwb-bx0fl source:",
+   "Source": "CI-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:13:52.153",
+   "Event": "2020-11-29 22:13:52.152+0000 [id=211742]\tINFO\to.c.j.p.k.KubernetesSlave#_terminate: Disconnected computer product-be-test-984-lxxts-9xfwb-bx0fl source:",
+   "Source": "Test-Tool-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:13:52.153",
+   "Event": "Terminated Kubernetes instance for agent jenkins/product-be-test-984-lxxts-9xfwb-bx0fl source:",
+   "Source": "Test-Tool-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:13:52.153",
+   "Event": "2020-11-29 22:13:52.152+0000 [id=211742]\tINFO\to.c.j.p.k.KubernetesSlave#deleteSlavePod: Terminated Kubernetes instance for agent jenkins/product-be-test-984-lxxts-9xfwb-bx0fl source:",
+   "Source": "Test-Tool-Infra"
+ },
+ {
+   "Time": "2020-11-29 22:13:57.587",
+   "Event": "22:13:57,586 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@48075da3 - Propagating ERROR level on Logger[org.apache.catalina.startup.DigesterFactory] onto the JUL framework source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:57.587",
+   "Event": "22:13:57,586 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.catalina.startup.DigesterFactory] to ERROR source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:57.591",
+   "Event": "22:13:57,590 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.catalina.util.LifecycleBase] to ERROR source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:57.591",
+   "Event": "22:13:57,590 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@48075da3 - Propagating ERROR level on Logger[org.apache.catalina.util.LifecycleBase] onto the JUL framework source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:57.592",
+   "Event": "22:13:57,591 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.eclipse.jetty.util.component.AbstractLifeCycle] to ERROR source:",
+   "Source": "Product Backend"
+ },
+ {
+   "Time": "2020-11-29 22:13:57.592",
+   "Event": "22:13:57,592 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@48075da3 - Propagating ERROR level on Logger[org.eclipse.jetty.util.component.AbstractLifeCycle] onto the JUL framework source:",
+   "Source": "Product Backend"
+ }
+]
